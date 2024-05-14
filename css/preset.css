@@ -1,0 +1,169 @@
+/* reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+nav ul,
+nav li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+ol,
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* start editing from here */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+:root {
+    --p-color: #ffdc12;
+    --s-color: #254151;
+    --m-color: darkblue;
+    --dark-green: #0e1701;
+    --text-green: #609005;
+    --hung-green: #65c302;
+    --bright-green: #6bc105;
+    --dull-green: #69c504;
+    --light-green: #c8faf6;
+    --hung-white: #ffe8dff0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Axiforma";
+    font-weight: normal;
+    color: #000;
+}
+ul {
+    list-style: none;
+}
+p {
+    color: #000;
+}
+a,
+button {
+    outline: none !important;
+    text-decoration: none !important;
+}
+.error {
+    color: tomato !important;
+    font-size: 12px;
+}
+.success {
+    color: var(--m-color) !important;
+}
